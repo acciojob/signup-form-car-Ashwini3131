@@ -16,9 +16,9 @@
 	<label for="gender"> Gender:</label> 
 	<input type="radio" name="gender" id="gender_m"/> Male     
 	<input type="radio" name="gender" id="gender_f"/> Female <br> <br>
-	<label for="cars"> Car Brands:</label> 
-	<select name="cars" required>
-		<option value="">--Please choose an option--</option>
+	<label for="cars">Choose your Car</label>
+	<select name="cars" id="cars" required>
+	<option value="" disabled selected>--Please choose an option--</option>
 		<option value="mahindra" > Mahindra </option> 
 		<option value="tata"> Tata  </option>  
 		<option value="bmw"> BMW    </option>
@@ -32,8 +32,9 @@
 	<input type="text" id="tel" name="tel" placeholder="XXX-XXX-XXXX" required/><br><br>
 	<label for="password"> Password:</label>   
 	<input type="text" id="password" name="password" placeholder="password" required/><br><br>
-	<input type="checkbox" name="tos"> I agree to TOS <br> <br>
-	<input type="submit" value="Submit">   
+	<label for="tos"></label>
+	<input type="checkbox" name="tos"id="tos"> <b>I agree to the TOS.</b>
+	<button type="submit" value="Submit">   
 	
 	</form>
 	
